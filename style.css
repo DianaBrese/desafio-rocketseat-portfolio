@@ -1,27 +1,243 @@
 body {
-    margin: 0;
+    margin: 20px 40px;
+    background-color:#22212C;
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    
 }
 
-header {
-    padding: 4rem;
-    background-color:lightgray;
+a:link {
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
 }
 
-nav {
+a:visited {
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a:active {
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1em;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #00FF00;
+    width: 50%;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.headings-text h2 {
+    text-align: justify;
+    padding-left: 40px;
+}
+    
+
+.card-color {
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 3px 3px #1b1a23;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+
+.personal-data-list li {   
+   list-style-type: none;
+   text-align: justify;
+   padding-right: 5px;
+   display: flex;
+    align-items: center;
+   
+}
+
+.personal-data-list {
     display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.personal-data-list img {
+    padding-right: 20px;
+}
+
+.experience-list li {
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 7px;
+    padding-bottom: 20px;
+   
+}
+
+.experience-list {
+    padding-left: 60px;
+}
+
+.techdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  
+}
+.tech {
+    background-color: #CB92B1;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px; 
+}
+
+.tech:hover {
+    color: #CB92B1;
+    background-color: #22212C;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 25vw;
+    
+}
+
+.right-side {
+    width: 75vw;
+    padding-left: 50px;
+}
+
+.block-one {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
-ul {
+.block-one h2 {
+    padding-left: 30px;
+}
+
+.block-one a {
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.block-two {
     display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 8rem;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-ul li:last-child {
- background: black;
- color: white;
- padding: .8rem;
+.block-two  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.block-two h2 {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.block-two img {
+    padding-right: 10px;
+}
+
+
+.block-icon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+
+.block-icon-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.last-block {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.last-block-photo img {
+    border-radius: 50%;
+    width: 60%;
+    padding-top: 15px;
+    
+}
+
+.last-block h2 {
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.last-block p:first {
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.last-block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+   
+}
+
+.last-block-content li {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 2px; 
+}
+
+.last-block-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.last-block-list ul {
+    padding: 0;
+    display: flex;
+
 }
